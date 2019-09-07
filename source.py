@@ -9,8 +9,8 @@ def checkLine(rline):
 
 read_file = open('text.txt', 'r')
 # creating output.txt file
-creat_file=open('output.txt','w')
-creat_file.close()
+create_file=open('output.txt','w')
+create_file.close()
 
 for line in read_file:
     if(checkLine(line.lstrip('0123456789.'))):
